@@ -1,6 +1,6 @@
 # matrix-observer
 
-Code used for the paper Ignatov & Pritchard 2025 [in review].
+Code developed for the paper Ignatov & Pritchard 2025 [in review], jointly by the authors.
 
 ## Theory
 
