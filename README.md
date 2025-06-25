@@ -1,25 +1,6 @@
 # matrix-observer
 
-## Setup
-
-Run `setup.py`.
-
-## Generating Paper Figures
-
-`fig_gen.py` contains the functions to generate the figures in Ignatov & Pritchard 2025.
-
-### Mapmaking Results
-
-Run `gen_showcase_ml` to run the relevant inferences. Then, 
-`plot_ml_showcase` will plot the pairwise figures, saved in 
-`/fig/MLmod/pairplots/`, and `plot_showcase_ml_corner` will plot the corner
-plot, saved in `/fig/MLmod/`.
-
-### SSF Results
-
-Run `gen_showcase_binwise` to run the relevant inferences. Then, 
-`plot_showcase_binwise` will plot the 4-panel figure used in the paper, as well
-
+Code used for the paper Ignatov & Pritchard 2025 [in review].
 
 ## Theory
 
@@ -50,6 +31,26 @@ can't be estimated, but will bias the inference of the lower order modes. This
 mean and covariance correction is computed with the `corr_2be` in the 
 `sky_models.py` file. The stochastic foreground model used in Ignatov & Pritchard 2025 is
 computed with `foreground_2be_alm_nsidelo` in `sky_models.py`.
+
+## Setup
+
+Run `setup.py`.
+
+## Generating Paper Figures
+
+`fig_gen.py` contains the functions to generate the figures in Ignatov & Pritchard 2025.
+
+### Mapmaking Results
+
+Run `gen_showcase_ml` to run the relevant inferences. Then, 
+`plot_ml_showcase` will plot the pairwise figures, saved in 
+`/fig/MLmod/pairplots/`, and `plot_showcase_ml_corner` will plot the corner
+plot, saved in `/fig/MLmod/`.
+
+### SSF Results
+
+Run `gen_showcase_binwise` to run the relevant inferences. Then, 
+`plot_showcase_binwise` will plot the 4-panel figure used in the paper, as well
 
 
 ## Modules
