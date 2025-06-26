@@ -1,4 +1,4 @@
-# matrix-observer
+# globmaps
 
 Code developed for the paper Ignatov & Pritchard 2025 [in review], jointly by the authors.
 
@@ -32,9 +32,16 @@ mean and covariance correction is computed with the `corr_2be` in the
 `sky_models.py` file. The stochastic foreground model used in Ignatov & Pritchard 2025 is
 computed with `foreground_2be_alm_nsidelo` in `sky_models.py`.
 
-## Setup
+## Setup and installation
+Dependancies are
+ - numpy
+ - matplotlib
+ - healpy
+ - numba
+ - emcee
+ - chainconsumer
 
-Run `setup.py`.
+After downloading, run `setup.py`.
 
 ## Generating Paper Figures
 
